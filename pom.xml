@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
-   Copyright 2005-2006 Open Source Applications Foundation
-   Copyright © 2018 Ankush Mishra, Roberto Polli, Mark Hobson, Morten Hekkvang
+   Copyright 2023-2024 Open Source Applications Foundation
+   Copyright © 2023 Sushil Singh
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <name>CalDav4j</name>
-  <groupId>com.github.caldav4j</groupId>
+  <groupId>com.yrt.oss</groupId>
   <artifactId>caldav4j</artifactId>
-  <version>1.0.5-SNAPSHOT</version>
+  <version>2.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,16 +38,10 @@
   </licenses>
   <developers>
     <developer>
-      <id>ioggstream</id>
-      <name>Roberto Polli</name>
-      <email>robipolli@gmail.com</email>
-      <url>http://github.com/ioggstream</url>
-    </developer>
-    <developer>
-      <id>The_Antimist</id>
-      <name>Ankush Mishra</name>
-      <email>ankushmishra9@gmail.com</email>
-      <url>http://github.com/TheAntimist</url>
+      <id>YRT</id>
+      <name>Sushil Singh</name>
+      <email>sushilsingh@yellowraytechnologies.com</email>
+      <url>https://github.com/YellowRayTechnologies</url>
     </developer>
   </developers>
   <dependencies>
@@ -119,16 +113,16 @@
     </dependency>
   </dependencies>
   <description>The Caldav Java Library</description>
-  <url>https://github.com/caldav4j/caldav4j.git</url>
+  <url>https://github.com/YellowRayTechnologies/caldav4j.git</url>
   <issueManagement>
     <system>github</system>
-    <url>https://github.com/caldav4j/caldav4j/issues</url>
+    <url>https://github.com/YellowRayTechnologies/caldav4j/issues</url>
   </issueManagement>
-  <scm>
+  <!-- <scm>
     <developerConnection>scm:git:ssh://github.com/caldav4j/caldav4j.git</developerConnection>
     <tag>0.9.1</tag>
     <url>https://github.com/caldav4j/caldav4j.git</url>
-  </scm>
+  </scm> -->
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
